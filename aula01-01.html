@@ -14,21 +14,21 @@
 
       let nome = prompt('Bem vindo ao Banco BG, para melhor atende-lo e por questoes de segurança precisaremos confirmar alguns dados. Por gentileza nos informe seu nome completo');
 
-      let email = prompt( 'Localizamos voce ' +nome +' .Agora por gentileza me informe seu email:');
+      let email = prompt( 'Localizamos voce ' +nome +'.Agora por gentileza me informe seu email:');
       
 
-      let dataNascimento = prompt( 'Localizamos seu email ' +nome +' .Agora por gentileza me informe sua data de nascimento:');
+      let dataNascimento = prompt( 'Localizamos seu email ' +nome +'.Agora por gentileza me informe sua data de nascimento:');
 
       let cpf = prompt('Ok. Por gentileza agora informe seu CPF, porem fique tranquilo seus dados estao seguros.');
       
-      let tipoConta = prompt( ' O seu CPF esta CORRETO ' +nome + '! Por gentileza nos informe o tipo de sua conta, sendo as opçoes CC ou Poupança');
+      let tipoConta = prompt( ' O seu CPF esta CORRETO ' +nome + '! Por gentileza nos informe o tipo de sua conta, sendo as opçoes 1-CC ou 2-Poupança');
 
-      let contaCorrente = prompt ('Ok veifquei que voce nos informou que sua Conta é Corrente. Para que possamos localiza-la me informe os numero de agencia e conta:')
+      let contaCorrente = prompt ('Ok verifiquei que voce nos informou que sua Conta é:' +tipoConta + '. Para que possamos localiza-la me informe os numero de agencia e conta:');
 
       let duvida = prompt ('Dados confirmados. Bem vindo(a) de volta ' 
       +nome + '! Localizamos sua conta. Como posso ajudar?');
 
-      alert ('Consegui compreender sua duvida ' +nome +' Iremos encaminhar o protocolo para seu e-mail, com seu respaldo! Banco BG agradece.')
+      alert ('Consegui compreender ' +nome +'. Iremos encaminhar o protocolo para seu e-mail, com seu respaldo! Banco BG agradece.');
 
 
     </script>
